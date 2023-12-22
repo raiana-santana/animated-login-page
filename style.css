@@ -1,1 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --main-green: #4A6C5E;
+    --light-green: #9CB1A8;
+    --blue-gray: #768582;
+    --pale-beige: #E6E3DE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--light-green);
+    background: linear-gradient(to right, #e2e2e2, var(--light-green));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.container p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
